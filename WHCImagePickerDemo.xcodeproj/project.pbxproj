@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A787A0A2139381C00921EB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A787A092139381C00921EB1 /* AppDelegate.m */; };
+		3A787A0C2139381C00921EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A787A0B2139381C00921EB1 /* Assets.xcassets */; };
+		3A787A0F2139381C00921EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A787A0D2139381C00921EB1 /* LaunchScreen.storyboard */; };
+		3A787A122139381C00921EB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A787A112139381C00921EB1 /* main.m */; };
+		3A787A1C2139381C00921EB1 /* WHCImagePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A787A1B2139381C00921EB1 /* WHCImagePickerDemoTests.m */; };
+		3A787A272139381C00921EB1 /* WHCImagePickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A787A262139381C00921EB1 /* WHCImagePickerDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A787A182139381C00921EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A7879FD2139381C00921EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A787A042139381C00921EB1;
+			remoteInfo = WHCImagePickerDemo;
+		};
+		3A787A232139381C00921EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A7879FD2139381C00921EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A787A042139381C00921EB1;
+			remoteInfo = WHCImagePickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A787A052139381C00921EB1 /* WHCImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHCImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A787A082139381C00921EB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A787A092139381C00921EB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A787A0B2139381C00921EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A787A0E2139381C00921EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A787A102139381C00921EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A787A112139381C00921EB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A787A172139381C00921EB1 /* WHCImagePickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHCImagePickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A787A1B2139381C00921EB1 /* WHCImagePickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHCImagePickerDemoTests.m; sourceTree = "<group>"; };
+		3A787A1D2139381C00921EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A787A222139381C00921EB1 /* WHCImagePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHCImagePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A787A262139381C00921EB1 /* WHCImagePickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHCImagePickerDemoUITests.m; sourceTree = "<group>"; };
+		3A787A282139381C00921EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A787A022139381C00921EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A787A142139381C00921EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A787A1F2139381C00921EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A7879FC2139381C00921EB1 = {
+			isa = PBXGroup;
+			children = (
+				3A787A072139381C00921EB1 /* WHCImagePickerDemo */,
+				3A787A1A2139381C00921EB1 /* WHCImagePickerDemoTests */,
+				3A787A252139381C00921EB1 /* WHCImagePickerDemoUITests */,
+				3A787A062139381C00921EB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A787A062139381C00921EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A787A052139381C00921EB1 /* WHCImagePickerDemo.app */,
+				3A787A172139381C00921EB1 /* WHCImagePickerDemoTests.xctest */,
+				3A787A222139381C00921EB1 /* WHCImagePickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A787A072139381C00921EB1 /* WHCImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3A787A082139381C00921EB1 /* AppDelegate.h */,
+				3A787A092139381C00921EB1 /* AppDelegate.m */,
+				3A787A0B2139381C00921EB1 /* Assets.xcassets */,
+				3A787A0D2139381C00921EB1 /* LaunchScreen.storyboard */,
+				3A787A102139381C00921EB1 /* Info.plist */,
+				3A787A112139381C00921EB1 /* main.m */,
+			);
+			path = WHCImagePickerDemo;
+			sourceTree = "<group>";
+		};
+		3A787A1A2139381C00921EB1 /* WHCImagePickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A787A1B2139381C00921EB1 /* WHCImagePickerDemoTests.m */,
+				3A787A1D2139381C00921EB1 /* Info.plist */,
+			);
+			path = WHCImagePickerDemoTests;
+			sourceTree = "<group>";
+		};
+		3A787A252139381C00921EB1 /* WHCImagePickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A787A262139381C00921EB1 /* WHCImagePickerDemoUITests.m */,
+				3A787A282139381C00921EB1 /* Info.plist */,
+			);
+			path = WHCImagePickerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A787A042139381C00921EB1 /* WHCImagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A787A2B2139381C00921EB1 /* Build configuration list for PBXNativeTarget "WHCImagePickerDemo" */;
+			buildPhases = (
+				3A787A012139381C00921EB1 /* Sources */,
+				3A787A022139381C00921EB1 /* Frameworks */,
+				3A787A032139381C00921EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHCImagePickerDemo;
+			productName = WHCImagePickerDemo;
+			productReference = 3A787A052139381C00921EB1 /* WHCImagePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A787A162139381C00921EB1 /* WHCImagePickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A787A2E2139381C00921EB1 /* Build configuration list for PBXNativeTarget "WHCImagePickerDemoTests" */;
+			buildPhases = (
+				3A787A132139381C00921EB1 /* Sources */,
+				3A787A142139381C00921EB1 /* Frameworks */,
+				3A787A152139381C00921EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A787A192139381C00921EB1 /* PBXTargetDependency */,
+			);
+			name = WHCImagePickerDemoTests;
+			productName = WHCImagePickerDemoTests;
+			productReference = 3A787A172139381C00921EB1 /* WHCImagePickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A787A212139381C00921EB1 /* WHCImagePickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A787A312139381C00921EB1 /* Build configuration list for PBXNativeTarget "WHCImagePickerDemoUITests" */;
+			buildPhases = (
+				3A787A1E2139381C00921EB1 /* Sources */,
+				3A787A1F2139381C00921EB1 /* Frameworks */,
+				3A787A202139381C00921EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A787A242139381C00921EB1 /* PBXTargetDependency */,
+			);
+			name = WHCImagePickerDemoUITests;
+			productName = WHCImagePickerDemoUITests;
+			productReference = 3A787A222139381C00921EB1 /* WHCImagePickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A7879FD2139381C00921EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = 1111;
+				TargetAttributes = {
+					3A787A042139381C00921EB1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3A787A162139381C00921EB1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A787A042139381C00921EB1;
+					};
+					3A787A212139381C00921EB1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A787A042139381C00921EB1;
+					};
+				};
+			};
+			buildConfigurationList = 3A787A002139381C00921EB1 /* Build configuration list for PBXProject "WHCImagePickerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A7879FC2139381C00921EB1;
+			productRefGroup = 3A787A062139381C00921EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A787A042139381C00921EB1 /* WHCImagePickerDemo */,
+				3A787A162139381C00921EB1 /* WHCImagePickerDemoTests */,
+				3A787A212139381C00921EB1 /* WHCImagePickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A787A032139381C00921EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A787A0C2139381C00921EB1 /* Assets.xcassets in Resources */,
+				3A787A0F2139381C00921EB1 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A787A152139381C00921EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A787A202139381C00921EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A787A012139381C00921EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A787A122139381C00921EB1 /* main.m in Sources */,
+				3A787A0A2139381C00921EB1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A787A132139381C00921EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A787A1C2139381C00921EB1 /* WHCImagePickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A787A1E2139381C00921EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A787A272139381C00921EB1 /* WHCImagePickerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A787A192139381C00921EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A787A042139381C00921EB1 /* WHCImagePickerDemo */;
+			targetProxy = 3A787A182139381C00921EB1 /* PBXContainerItemProxy */;
+		};
+		3A787A242139381C00921EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A787A042139381C00921EB1 /* WHCImagePickerDemo */;
+			targetProxy = 3A787A232139381C00921EB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A787A0D2139381C00921EB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A787A0E2139381C00921EB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A787A292139381C00921EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A787A2A2139381C00921EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A787A2C2139381C00921EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHCImagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WHCImagePickerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A787A2D2139381C00921EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHCImagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WHCImagePickerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A787A2F2139381C00921EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHCImagePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WHCImagePickerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHCImagePickerDemo.app/WHCImagePickerDemo";
+			};
+			name = Debug;
+		};
+		3A787A302139381C00921EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHCImagePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WHCImagePickerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHCImagePickerDemo.app/WHCImagePickerDemo";
+			};
+			name = Release;
+		};
+		3A787A322139381C00921EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHCImagePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WHCImagePickerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WHCImagePickerDemo;
+			};
+			name = Debug;
+		};
+		3A787A332139381C00921EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHCImagePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WHCImagePickerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WHCImagePickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A787A002139381C00921EB1 /* Build configuration list for PBXProject "WHCImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A787A292139381C00921EB1 /* Debug */,
+				3A787A2A2139381C00921EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A787A2B2139381C00921EB1 /* Build configuration list for PBXNativeTarget "WHCImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A787A2C2139381C00921EB1 /* Debug */,
+				3A787A2D2139381C00921EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A787A2E2139381C00921EB1 /* Build configuration list for PBXNativeTarget "WHCImagePickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A787A2F2139381C00921EB1 /* Debug */,
+				3A787A302139381C00921EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A787A312139381C00921EB1 /* Build configuration list for PBXNativeTarget "WHCImagePickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A787A322139381C00921EB1 /* Debug */,
+				3A787A332139381C00921EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A7879FD2139381C00921EB1 /* Project object */;
+}
