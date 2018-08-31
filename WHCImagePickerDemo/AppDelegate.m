@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ImagePerkerViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,6 +20,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[ImagePerkerViewController new]];
+    self.window.rootViewController = nav;
     return YES;
 }
 
